@@ -10,6 +10,7 @@ from logger import get_logger
 from modules.onedrive_client   import OneDriveClient
 from modules.invoice_extractor import InvoiceExtractor
 from modules.excel_writer      import generar_excel
+from modules.transformer       import aplicar_todas
 
 log = get_logger()
 
@@ -115,7 +116,8 @@ class Orchestrator:
             log.info(f"   📄  {nombre}")
             try:
                 contenido = self.onedrive.descargar(archivo["id"])
-                datos = self.extractor.extraer(contenido, nombre)
+                datos = self.extractor.extraer(contenido, nombre, carpeta)
+                datos = aplicar_todas(datos)
                 for d in datos:
                     d["ID"] = contador_id
                     contador_id += 1
@@ -151,6 +153,44 @@ class Orchestrator:
             log.warning(f"   {errores} archivo(s) con error")
         return len(nuevas)
 
+    def generar_excel_maestro(self) -> None:
+        log.info("📊  Generando Excel maestro...")
+
+        try:
+            subcarpetas = self.onedrive.listar_subcarpetas(CARPETA_RAIZ)
+        except Exception as e:
+            log.error(f"   Error listando subcarpetas: {e}")
+            return
+
+        todos = []
+        for carpeta in subcarpetas:
+            excel = self.onedrive.descargar_excel(carpeta, EXCEL_OUTPUT_NAME)
+            if excel is None:
+                continue
+            datos = _leer_datos_existentes(excel)
+            todos.extend(datos)
+
+        if not todos:
+            log.warning("   Sin datos para el Excel maestro")
+            return
+
+        todos = _normalizar_filas(todos)
+
+        try:
+            excel_bytes = generar_excel(todos, CARPETA_RAIZ)
+        except Exception as e:
+            log.error(f"   Error generando Excel maestro: {e}")
+            return
+
+        try:
+            ok = self.onedrive.subir(CARPETA_RAIZ, EXCEL_OUTPUT_NAME, excel_bytes)
+            if ok:
+                log.info(f"   ✅  Excel maestro: {len(todos)} fila(s) — {CARPETA_RAIZ}/{EXCEL_OUTPUT_NAME}")
+            else:
+                log.error("   ✗  No se pudo subir el Excel maestro")
+        except Exception as e:
+            log.error(f"   Error subiendo Excel maestro: {e}")
+
     def procesar_todo(self, carpetas: List[str]) -> None:
         log.info("=" * 50)
         log.info("🚀  Iniciando extracción de facturas")
@@ -168,6 +208,8 @@ class Orchestrator:
         for carpeta in carpetas:
             total_global += self.procesar_carpeta(carpeta)
 
-        log.info("=" * 5)
+        self.generar_excel_maestro()
+
+        log.info("=" * 50)
         log.info(f"✅  Proceso terminado — {total_global} factura(s) nuevas procesadas")
-        log.info("=" * 5)
+        log.info("=" * 50)

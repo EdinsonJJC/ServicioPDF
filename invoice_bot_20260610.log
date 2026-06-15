@@ -158,3 +158,584 @@
 2026-06-10 08:47:35  INFO      =====
 2026-06-10 08:47:35  INFO      ✅  Proceso terminado — 4 factura(s) nuevas procesadas
 2026-06-10 08:47:35  INFO      =====
+2026-06-10 09:17:29  INFO      ==================================================
+2026-06-10 09:17:29  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:17:29  INFO      ==================================================
+2026-06-10 09:17:31  INFO         3 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:17:31  INFO      📁  Carpeta: PruebaADR/05-06-2026
+2026-06-10 09:17:35  INFO         ✅  Sin cambios en 'PruebaADR/05-06-2026'
+2026-06-10 09:17:35  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 09:17:37  INFO         📋  1 factura(s) en Excel
+2026-06-10 09:17:38  INFO         🗑️  1 factura(s) eliminada(s) — se quitan del Excel
+2026-06-10 09:17:38  INFO         0 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:17:40  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:17:40  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:17:44  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:17:44  INFO         📄  F1.pdf
+2026-06-10 09:17:55  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:17:56  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:17:56  INFO      =====
+2026-06-10 09:17:56  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:17:56  INFO      =====
+2026-06-10 09:22:43  INFO      ==================================================
+2026-06-10 09:22:43  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:22:43  INFO      ==================================================
+2026-06-10 09:22:45  INFO         3 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:22:45  INFO      📁  Carpeta: PruebaADR/05-06-2026
+2026-06-10 09:22:49  INFO         ✅  Sin cambios en 'PruebaADR/05-06-2026'
+2026-06-10 09:22:49  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 09:22:52  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 09:22:52  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:22:55  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:22:55  INFO         📄  BCP-630.pdf
+2026-06-10 09:23:04  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:23:06  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:23:06  INFO      =====
+2026-06-10 09:23:06  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:23:06  INFO      =====
+2026-06-10 09:25:40  INFO      ==================================================
+2026-06-10 09:25:40  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:25:40  INFO      ==================================================
+2026-06-10 09:25:41  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:25:41  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:25:44  INFO         📋  1 factura(s) en Excel
+2026-06-10 09:25:46  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 09:25:46  INFO      =====
+2026-06-10 09:25:46  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 09:25:46  INFO      =====
+2026-06-10 09:26:10  INFO      ==================================================
+2026-06-10 09:26:10  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:26:10  INFO      ==================================================
+2026-06-10 09:26:11  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:26:11  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:26:14  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:26:14  INFO         📄  BCP-630.pdf
+2026-06-10 09:26:29  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:26:30  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:26:30  INFO      =====
+2026-06-10 09:26:30  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:26:30  INFO      =====
+2026-06-10 09:30:51  INFO      ==================================================
+2026-06-10 09:30:51  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:30:51  INFO      ==================================================
+2026-06-10 09:30:53  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:30:53  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:30:55  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:30:55  INFO         📄  BCP-630.pdf
+2026-06-10 09:31:04  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:31:07  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:31:07  INFO      =====
+2026-06-10 09:31:07  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:31:07  INFO      =====
+2026-06-10 09:34:23  INFO      ==================================================
+2026-06-10 09:34:23  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:34:23  INFO      ==================================================
+2026-06-10 09:34:25  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:34:25  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:34:27  INFO         📋  1 factura(s) en Excel
+2026-06-10 09:34:29  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 09:34:29  INFO      =====
+2026-06-10 09:34:29  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 09:34:29  INFO      =====
+2026-06-10 09:34:50  INFO      ==================================================
+2026-06-10 09:34:50  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:34:50  INFO      ==================================================
+2026-06-10 09:34:51  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:34:51  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:34:55  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:34:55  INFO         📄  BCP-630.pdf
+2026-06-10 09:35:05  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:35:07  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:35:07  INFO      =====
+2026-06-10 09:35:07  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:35:07  INFO      =====
+2026-06-10 09:48:12  INFO      ==================================================
+2026-06-10 09:48:12  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 09:48:12  INFO      ==================================================
+2026-06-10 09:48:13  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 09:48:13  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 09:48:16  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 09:48:16  INFO         📄  BCP-630.pdf
+2026-06-10 09:48:26  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 09:48:28  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 09:48:28  INFO      =====
+2026-06-10 09:48:28  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 09:48:28  INFO      =====
+2026-06-10 11:05:54  INFO      ==================================================
+2026-06-10 11:05:54  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:05:54  INFO      ==================================================
+2026-06-10 11:05:57  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:05:57  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:05:59  INFO         2 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:05:59  INFO         📄  BBVA-468.pdf
+2026-06-10 11:06:11  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:06:11  INFO         📄  BCP-630.pdf
+2026-06-10 11:06:19  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:06:21  INFO         ✅  Excel sincronizado: 2 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:06:21  INFO      =====
+2026-06-10 11:06:21  INFO      ✅  Proceso terminado — 2 factura(s) nuevas procesadas
+2026-06-10 11:06:21  INFO      =====
+2026-06-10 11:11:38  INFO      ==================================================
+2026-06-10 11:11:38  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:11:38  INFO      ==================================================
+2026-06-10 11:11:40  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:11:40  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:11:43  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:11:43  INFO         📄  BBVA-468.pdf
+2026-06-10 11:11:52  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:11:54  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:11:54  INFO      =====
+2026-06-10 11:11:54  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 11:11:54  INFO      =====
+2026-06-10 11:15:52  INFO      ==================================================
+2026-06-10 11:15:52  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:15:52  INFO      ==================================================
+2026-06-10 11:15:54  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:15:54  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:15:58  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:15:58  INFO         📄  BBVA-468.pdf
+2026-06-10 11:16:11  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:16:13  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:16:13  INFO      =====
+2026-06-10 11:16:13  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 11:16:13  INFO      =====
+2026-06-10 11:16:56  INFO      ==================================================
+2026-06-10 11:16:56  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:16:56  INFO      ==================================================
+2026-06-10 11:16:58  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:16:58  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:17:00  INFO         📋  1 factura(s) en Excel
+2026-06-10 11:17:02  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:17:02  INFO         📄  20100047218-01-FB03-02263818.pdf
+2026-06-10 11:17:12  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:17:14  INFO         ✅  Excel sincronizado: 3 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:17:14  INFO      =====
+2026-06-10 11:17:14  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 11:17:14  INFO      =====
+2026-06-10 11:17:59  INFO      ==================================================
+2026-06-10 11:17:59  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:17:59  INFO      ==================================================
+2026-06-10 11:18:03  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:18:03  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:18:07  INFO         3 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:18:07  INFO         📄  20100047218-01-FB03-02263818.pdf
+2026-06-10 11:18:18  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:18:18  INFO         📄  20100053455-01-FIN1-00252786.pdf
+2026-06-10 11:18:28  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:18:28  INFO         📄  BBVA-468.pdf
+2026-06-10 11:18:37  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:18:38  INFO         ✅  Excel sincronizado: 3 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:18:38  INFO      =====
+2026-06-10 11:18:38  INFO      ✅  Proceso terminado — 3 factura(s) nuevas procesadas
+2026-06-10 11:18:38  INFO      =====
+2026-06-10 11:22:54  INFO      ==================================================
+2026-06-10 11:22:54  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:22:54  INFO      ==================================================
+2026-06-10 11:22:56  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:22:56  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:23:00  INFO         6 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:23:00  INFO         📄  20100047218-01-FB03-02263818.pdf
+2026-06-10 11:23:10  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:10  INFO         📄  20100053455-01-FIN1-00252786.pdf
+2026-06-10 11:23:19  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:19  INFO         📄  BBVA-468.pdf
+2026-06-10 11:23:28  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:28  INFO         📄  BCP-823.pdf
+2026-06-10 11:23:36  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:36  INFO         📄  INT-033.pdf
+2026-06-10 11:23:45  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:45  INFO         📄  INT-302.pdf
+2026-06-10 11:23:54  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:23:56  INFO         ✅  Excel sincronizado: 6 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:23:56  INFO      =====
+2026-06-10 11:23:56  INFO      ✅  Proceso terminado — 6 factura(s) nuevas procesadas
+2026-06-10 11:23:56  INFO      =====
+2026-06-10 11:25:35  INFO      ==================================================
+2026-06-10 11:25:35  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:25:35  INFO      ==================================================
+2026-06-10 11:25:37  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:25:37  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:25:39  INFO         📋  6 factura(s) en Excel
+2026-06-10 11:25:41  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:25:41  INFO         📄  BCP-630.pdf
+2026-06-10 11:25:49  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:25:51  INFO         ✅  Excel sincronizado: 8 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:25:51  INFO      =====
+2026-06-10 11:25:51  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 11:25:51  INFO      =====
+2026-06-10 11:27:34  INFO      ==================================================
+2026-06-10 11:27:34  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:27:34  INFO      ==================================================
+2026-06-10 11:27:35  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:27:35  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:27:37  INFO         📋  7 factura(s) en Excel
+2026-06-10 11:27:39  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:27:39  INFO         📄  BCP-502.pdf
+2026-06-10 11:27:48  ERROR            ✗  Error en 'BCP-502.pdf': could not convert string to float: '.47.5'
+2026-06-10 11:27:49  INFO         ✅  Excel sincronizado: 9 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:27:49  WARNING      1 archivo(s) con error
+2026-06-10 11:27:49  INFO      =====
+2026-06-10 11:27:49  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 11:27:49  INFO      =====
+2026-06-10 11:29:55  INFO      ==================================================
+2026-06-10 11:29:55  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:29:55  INFO      ==================================================
+2026-06-10 11:29:56  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:29:56  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:30:00  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:30:00  INFO         📄  BCP-502.pdf
+2026-06-10 11:30:11  ERROR            ✗  Error en 'BCP-502.pdf': could not convert string to float: '.47.5'
+2026-06-10 11:30:11  WARNING      Sin datos para guardar en 'PruebaADR/07-06-2026'
+2026-06-10 11:30:11  INFO      =====
+2026-06-10 11:30:11  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 11:30:11  INFO      =====
+2026-06-10 11:31:36  INFO      ==================================================
+2026-06-10 11:31:36  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:31:36  INFO      ==================================================
+2026-06-10 11:31:41  INFO         1 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:31:41  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:31:43  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:31:43  INFO         📄  BCP-502.pdf
+2026-06-10 11:32:39  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:32:41  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:32:41  INFO      =====
+2026-06-10 11:32:41  INFO      ✅  Proceso terminado — 1 factura(s) nuevas procesadas
+2026-06-10 11:32:41  INFO      =====
+2026-06-10 11:40:02  INFO      ==================================================
+2026-06-10 11:40:02  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:40:02  INFO      ==================================================
+2026-06-10 11:40:03  INFO         3 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:40:03  INFO      📁  Carpeta: PruebaADR/06-05-2026
+2026-06-10 11:40:06  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:40:06  INFO         📄  20100047218-01-FB03-02263818.pdf
+2026-06-10 11:40:15  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:40:17  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-05-2026/facturas_extraidas.xlsx
+2026-06-10 11:40:17  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 11:40:20  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:40:20  INFO         📄  BCP-630.pdf
+2026-06-10 11:40:43  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:40:45  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:40:45  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:40:48  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:40:48  INFO         📄  BCP-502.pdf
+2026-06-10 11:40:57  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:40:58  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:40:58  INFO      =====
+2026-06-10 11:40:58  INFO      ✅  Proceso terminado — 3 factura(s) nuevas procesadas
+2026-06-10 11:40:58  INFO      =====
+2026-06-10 11:57:18  INFO      ==================================================
+2026-06-10 11:57:18  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 11:57:18  INFO      ==================================================
+2026-06-10 11:57:20  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 11:57:20  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 11:57:24  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:57:24  INFO         📄  BCP-630.pdf
+2026-06-10 11:57:34  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:57:36  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:57:36  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 11:57:39  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 11:57:39  INFO         📄  BCP-502.pdf
+2026-06-10 11:57:47  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 11:57:49  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 11:57:49  INFO      =====
+2026-06-10 11:57:49  INFO      ✅  Proceso terminado — 2 factura(s) nuevas procesadas
+2026-06-10 11:57:49  INFO      =====
+2026-06-10 12:00:16  INFO      ==================================================
+2026-06-10 12:00:16  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 12:00:16  INFO      ==================================================
+2026-06-10 12:00:17  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 12:00:17  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 12:00:20  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 12:00:20  INFO         📄  BCP-630.pdf
+2026-06-10 12:00:31  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 12:00:32  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 12:00:32  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 12:00:35  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 12:00:35  INFO         📄  BCP-502.pdf
+2026-06-10 12:00:43  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 12:00:45  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 12:00:45  INFO      =====
+2026-06-10 12:00:45  INFO      ✅  Proceso terminado — 2 factura(s) nuevas procesadas
+2026-06-10 12:00:45  INFO      =====
+2026-06-10 13:34:04  INFO      ==================================================
+2026-06-10 13:34:04  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 13:34:04  INFO      ==================================================
+2026-06-10 13:34:07  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 13:34:07  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 13:34:11  INFO         📋  1 factura(s) en Excel
+2026-06-10 13:34:12  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 13:34:12  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 13:34:15  INFO         📋  1 factura(s) en Excel
+2026-06-10 13:34:17  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 13:34:17  INFO      =====
+2026-06-10 13:34:17  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 13:34:17  INFO      =====
+2026-06-10 13:42:21  INFO      ==================================================
+2026-06-10 13:42:21  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 13:42:21  INFO      ==================================================
+2026-06-10 13:42:23  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 13:42:23  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 13:42:28  INFO         📋  1 factura(s) en Excel
+2026-06-10 13:42:29  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 13:42:29  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 13:42:32  INFO         📋  1 factura(s) en Excel
+2026-06-10 13:42:34  INFO         4 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 13:42:34  INFO         📄  20100047218-01-FB03-02263818.pdf
+2026-06-10 13:42:46  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:42:46  INFO         📄  20100053455-01-FIN1-00252786.pdf
+2026-06-10 13:42:55  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:42:55  INFO         📄  BBVA-468.pdf
+2026-06-10 13:43:05  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:43:05  INFO         📄  BCP-630.pdf
+2026-06-10 13:43:14  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:43:16  INFO         ✅  Excel sincronizado: 5 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 13:43:16  INFO      =====
+2026-06-10 13:43:16  INFO      ✅  Proceso terminado — 4 factura(s) nuevas procesadas
+2026-06-10 13:43:16  INFO      =====
+2026-06-10 13:49:18  INFO      ==================================================
+2026-06-10 13:49:18  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 13:49:18  INFO      ==================================================
+2026-06-10 13:49:20  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 13:49:20  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 13:49:24  INFO         📋  1 factura(s) en Excel
+2026-06-10 13:49:26  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 13:49:26  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 13:49:30  INFO         📋  5 factura(s) en Excel
+2026-06-10 13:49:33  INFO         🗑️  3 factura(s) eliminada(s) — se quitan del Excel
+2026-06-10 13:49:33  INFO         0 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 13:49:36  INFO         ✅  Excel sincronizado: 2 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 13:49:36  INFO      =====
+2026-06-10 13:49:36  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 13:49:36  INFO      =====
+2026-06-10 13:58:02  INFO      ==================================================
+2026-06-10 13:58:02  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 13:58:02  INFO      ==================================================
+2026-06-10 13:58:05  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 13:58:05  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 13:58:08  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 13:58:08  INFO         📄  BCP-630.pdf
+2026-06-10 13:58:20  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:58:22  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 13:58:22  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 13:58:24  INFO         2 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 13:58:24  INFO         📄  20100053455-01-FIN1-00252786.pdf
+2026-06-10 13:58:33  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:58:33  INFO         📄  BBVA-468.pdf
+2026-06-10 13:58:49  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 13:58:51  INFO         ✅  Excel sincronizado: 2 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 13:58:51  INFO      =====
+2026-06-10 13:58:51  INFO      ✅  Proceso terminado — 3 factura(s) nuevas procesadas
+2026-06-10 13:58:51  INFO      =====
+2026-06-10 14:02:28  INFO      ==================================================
+2026-06-10 14:02:28  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:02:28  INFO      ==================================================
+2026-06-10 14:02:30  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:02:30  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:02:33  INFO         1 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 14:02:33  INFO         📄  BCP-630.pdf
+2026-06-10 14:02:44  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 14:02:46  INFO         ✅  Excel sincronizado: 1 fila(s) — PruebaADR/06-06-2026/facturas_extraidas.xlsx
+2026-06-10 14:02:46  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:02:50  INFO         2 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 14:02:50  INFO         📄  20100053455-01-FIN1-00252786.pdf
+2026-06-10 14:03:00  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 14:03:00  INFO         📄  BBVA-468.pdf
+2026-06-10 14:03:09  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 14:03:11  INFO         ✅  Excel sincronizado: 2 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 14:03:11  INFO      =====
+2026-06-10 14:03:11  INFO      ✅  Proceso terminado — 3 factura(s) nuevas procesadas
+2026-06-10 14:03:11  INFO      =====
+2026-06-10 14:08:13  INFO      ==================================================
+2026-06-10 14:08:13  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:08:13  INFO      ==================================================
+2026-06-10 14:08:15  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:08:15  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:08:24  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:08:25  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:08:25  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:08:28  INFO         📋  2 factura(s) en Excel
+2026-06-10 14:08:30  INFO         2 archivo(s) nuevo(s) encontrado(s)
+2026-06-10 14:08:30  INFO         📄  BCP-502.pdf
+2026-06-10 14:08:41  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 14:08:41  INFO         📄  BCP-630.pdf
+2026-06-10 14:08:51  INFO             ✓  1 factura(s) extraída(s)
+2026-06-10 14:08:53  INFO         ✅  Excel sincronizado: 4 fila(s) — PruebaADR/07-06-2026/facturas_extraidas.xlsx
+2026-06-10 14:08:53  INFO      =====
+2026-06-10 14:08:53  INFO      ✅  Proceso terminado — 2 factura(s) nuevas procesadas
+2026-06-10 14:08:53  INFO      =====
+2026-06-10 14:13:55  INFO      ==================================================
+2026-06-10 14:13:55  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:13:55  INFO      ==================================================
+2026-06-10 14:13:59  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:13:59  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:14:03  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:14:06  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:14:06  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:14:10  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:14:12  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:14:12  INFO      =====
+2026-06-10 14:14:12  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:14:12  INFO      =====
+2026-06-10 14:20:14  INFO      ==================================================
+2026-06-10 14:20:14  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:20:14  INFO      ==================================================
+2026-06-10 14:20:18  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:20:18  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:20:22  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:20:24  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:20:24  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:20:29  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:20:31  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:20:31  INFO      =====
+2026-06-10 14:20:31  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:20:31  INFO      =====
+2026-06-10 14:25:33  INFO      ==================================================
+2026-06-10 14:25:33  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:25:33  INFO      ==================================================
+2026-06-10 14:25:35  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:25:35  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:25:40  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:25:43  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:25:43  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:25:48  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:25:50  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:25:50  INFO      =====
+2026-06-10 14:25:50  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:25:50  INFO      =====
+2026-06-10 14:30:52  INFO      ==================================================
+2026-06-10 14:30:52  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:30:52  INFO      ==================================================
+2026-06-10 14:30:56  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:30:56  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:31:01  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:31:04  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:31:04  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:31:10  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:31:12  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:31:12  INFO      =====
+2026-06-10 14:31:12  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:31:12  INFO      =====
+2026-06-10 14:37:14  INFO      ==================================================
+2026-06-10 14:37:14  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:37:14  INFO      ==================================================
+2026-06-10 14:37:17  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:37:17  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:37:23  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:37:25  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:37:25  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:37:30  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:37:33  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:37:33  INFO      =====
+2026-06-10 14:37:33  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:37:33  INFO      =====
+2026-06-10 14:43:35  INFO      ==================================================
+2026-06-10 14:43:35  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:43:35  INFO      ==================================================
+2026-06-10 14:43:37  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:43:37  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:43:42  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:43:44  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:43:44  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:43:46  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:43:48  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:43:48  INFO      =====
+2026-06-10 14:43:48  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:43:48  INFO      =====
+2026-06-10 14:48:50  INFO      ==================================================
+2026-06-10 14:48:50  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:48:50  INFO      ==================================================
+2026-06-10 14:48:52  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:48:52  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:48:57  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:49:00  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:49:00  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:49:03  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:49:06  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:49:06  INFO      =====
+2026-06-10 14:49:06  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:49:06  INFO      =====
+2026-06-10 14:55:07  INFO      ==================================================
+2026-06-10 14:55:07  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 14:55:07  INFO      ==================================================
+2026-06-10 14:55:09  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 14:55:09  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 14:55:12  INFO         📋  1 factura(s) en Excel
+2026-06-10 14:55:15  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 14:55:15  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 14:55:19  INFO         📋  4 factura(s) en Excel
+2026-06-10 14:55:21  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 14:55:21  INFO      =====
+2026-06-10 14:55:21  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 14:55:21  INFO      =====
+2026-06-10 15:01:23  INFO      ==================================================
+2026-06-10 15:01:23  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 15:01:23  INFO      ==================================================
+2026-06-10 15:01:25  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 15:01:25  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 15:01:29  INFO         📋  1 factura(s) en Excel
+2026-06-10 15:01:31  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 15:01:31  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 15:01:34  INFO         📋  4 factura(s) en Excel
+2026-06-10 15:01:36  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 15:01:36  INFO      =====
+2026-06-10 15:01:36  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 15:01:36  INFO      =====
+2026-06-10 15:06:37  INFO      ==================================================
+2026-06-10 15:06:37  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 15:06:37  INFO      ==================================================
+2026-06-10 15:06:39  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 15:06:39  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 15:06:44  INFO         📋  1 factura(s) en Excel
+2026-06-10 15:06:45  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 15:06:45  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 15:06:49  INFO         📋  4 factura(s) en Excel
+2026-06-10 15:06:51  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 15:06:51  INFO      =====
+2026-06-10 15:06:51  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 15:06:51  INFO      =====
+2026-06-10 15:12:52  INFO      ==================================================
+2026-06-10 15:12:52  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 15:12:52  INFO      ==================================================
+2026-06-10 15:12:54  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 15:12:54  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 15:12:59  INFO         📋  1 factura(s) en Excel
+2026-06-10 15:13:01  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 15:13:01  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 15:13:04  INFO         📋  4 factura(s) en Excel
+2026-06-10 15:13:06  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 15:13:06  INFO      =====
+2026-06-10 15:13:06  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 15:13:06  INFO      =====
+2026-06-10 15:19:07  INFO      ==================================================
+2026-06-10 15:19:07  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 15:19:07  INFO      ==================================================
+2026-06-10 15:19:10  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 15:19:10  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 15:19:13  INFO         📋  1 factura(s) en Excel
+2026-06-10 15:19:16  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 15:19:16  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 15:19:19  INFO         📋  4 factura(s) en Excel
+2026-06-10 15:19:21  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 15:19:21  INFO      =====
+2026-06-10 15:19:21  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 15:19:21  INFO      =====
+2026-06-10 15:24:22  INFO      ==================================================
+2026-06-10 15:24:22  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 15:24:22  INFO      ==================================================
+2026-06-10 15:24:26  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 15:24:26  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 17:57:01  INFO      ==================================================
+2026-06-10 17:57:01  INFO      🚀  Iniciando extracción de facturas
+2026-06-10 17:57:01  INFO      ==================================================
+2026-06-10 17:57:04  INFO         2 subcarpeta(s) encontrada(s) en 'PruebaADR'
+2026-06-10 17:57:04  INFO      📁  Carpeta: PruebaADR/06-06-2026
+2026-06-10 17:57:08  INFO         📋  1 factura(s) en Excel
+2026-06-10 17:57:09  INFO         ✅  Sin cambios en 'PruebaADR/06-06-2026'
+2026-06-10 17:57:09  INFO      📁  Carpeta: PruebaADR/07-06-2026
+2026-06-10 17:57:12  INFO         📋  4 factura(s) en Excel
+2026-06-10 17:57:14  INFO         ✅  Sin cambios en 'PruebaADR/07-06-2026'
+2026-06-10 17:57:14  INFO      📊  Generando Excel maestro...
+2026-06-10 17:57:22  INFO         ✅  Excel maestro: 5 fila(s) — PruebaADR/facturas_extraidas.xlsx
+2026-06-10 17:57:22  INFO      ==================================================
+2026-06-10 17:57:22  INFO      ✅  Proceso terminado — 0 factura(s) nuevas procesadas
+2026-06-10 17:57:22  INFO      ==================================================

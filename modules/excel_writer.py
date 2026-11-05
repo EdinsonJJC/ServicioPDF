@@ -1,16 +1,16 @@
 from io import BytesIO
 from typing import List, Dict, Any
 from datetime import datetime
-
+from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, PatternFill
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 
 HEADER_COLOR  = "4F46E5"
 HEADER_FONT   = "FFFFFF"
-MANUAL_COLOR  = "FFF3CD"   # amarillo suave — campos a llenar manualmente
-MANUAL_BORDER = "FFC107"
+
+CAMPOS_MANUALES = {"Check"}
 
 
 def _estilo_header(ws, headers):
@@ -23,9 +23,6 @@ def _estilo_header(ws, headers):
         cell.font      = font
         cell.border    = border
         cell.alignment = Alignment(horizontal="center", vertical="center")
-
-
-CAMPOS_MANUALES = {"Banco", "Tipo documento", "Glosa"}
 
 
 def _estilo_manual(ws, headers, n_filas):
@@ -44,7 +41,7 @@ def _estilo_manual(ws, headers, n_filas):
 
 def _autofit(ws):
     for col in ws.columns:
-        max_len   = 0
+        max_len    = 0
         col_letter = get_column_letter(col[0].column)
         for cell in col:
             try:
@@ -76,19 +73,29 @@ def generar_excel(datos: List[Dict[str, Any]], carpeta: str) -> bytes:
 
     _estilo_manual(ws, headers, len(datos))
 
-    # Nota al pie sobre campos manuales
-    ws.cell(row=len(datos) + 3, column=1).value = (
-        "* Campos en amarillo (Banco, Tipo documento, Glosa) deben completarse manualmente."
+    # Formato tabla con filtros
+    ultima_col = get_column_letter(len(headers))
+    ultima_fila = len(datos) + 1
+    tabla = Table(
+        displayName="Facturas",
+        ref=f"A1:{ultima_col}{ultima_fila}"
     )
-    ws.cell(row=len(datos) + 3, column=1).font = Font(italic=True, color="888888", size=10)
+    tabla.tableStyleInfo = TableStyleInfo(
+        name="TableStyleMedium2",
+        showFirstColumn=False,
+        showLastColumn=False,
+        showRowStripes=True,
+        showColumnStripes=False,
+    )
+    ws.add_table(tabla)
 
     # Hoja resumen
     ws_meta = wb.create_sheet("Resumen")
-    ws_meta.append(["Campo",       "Valor"])
-    ws_meta.append(["Carpeta",     carpeta])
-    ws_meta.append(["Facturas",    len(datos)])
-    ws_meta.append(["Generado el", datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
-    ws_meta.append(["Campos manuales", "Banco, Tipo documento, Glosa"])
+    ws_meta.append(["Campo",          "Valor"])
+    ws_meta.append(["Carpeta",        carpeta])
+    ws_meta.append(["Facturas",       len(datos)])
+    ws_meta.append(["Generado el",    datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
+    ws_meta.append(["Campos manuales","Banco, Tipo documento, Glosa"])
 
     _autofit(ws)
     _autofit(ws_meta)

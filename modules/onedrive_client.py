@@ -37,7 +37,10 @@ class OneDriveClient:
                 self._save_cache()
                 return result["access_token"]
 
-        result = self._app.acquire_token_interactive(scopes=SCOPES)
+        result = self._app.acquire_token_interactive(
+            scopes=SCOPES,
+            prompt="select_account"
+        )
         if "access_token" not in result:
             raise RuntimeError(f"Error de autenticación: {result.get('error_description')}")
         self._save_cache()
@@ -47,6 +50,12 @@ class OneDriveClient:
         if not self._token:
             self._token = self._get_token()
         return {"Authorization": f"Bearer {self._token}"}
+
+    def quien_soy(self):
+        url  = f"{GRAPH_BASE}/me"
+        resp = requests.get(url, headers=self._headers())
+        data = resp.json()
+        print(f"DEBUG cuenta: {data.get('userPrincipalName')} — {data.get('displayName')}")
 
     def listar_archivos(self, carpeta: str, extensiones: tuple) -> List[Dict]:
         url  = f"{GRAPH_BASE}/me/drive/root:/{carpeta}:/children"
@@ -65,7 +74,6 @@ class OneDriveClient:
         return BytesIO(resp.content)
 
     def descargar_excel(self, carpeta: str, nombre: str) -> Optional[BytesIO]:
-        """Descarga el Excel existente o devuelve None si no existe."""
         url  = f"{GRAPH_BASE}/me/drive/root:/{carpeta}/{nombre}:/content"
         resp = requests.get(url, headers=self._headers())
         if resp.status_code == 404:

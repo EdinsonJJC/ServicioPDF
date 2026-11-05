@@ -1,17 +1,29 @@
 from typing import List, Set
+from datetime import datetime, timedelta
 from openpyxl import load_workbook
 from config import (
     CLIENT_ID,
     DOC_ENDPOINT, DOC_KEY,
     EXTENSIONES_VALIDAS, EXCEL_OUTPUT_NAME,
     CARPETA_RAIZ,
+    PATRONES_EXCLUIDOS,
+    DIAS_ATRAS,
 )
 from logger import get_logger
 from modules.onedrive_client   import OneDriveClient
 from modules.invoice_extractor import InvoiceExtractor
 from modules.excel_writer      import generar_excel
+from modules.transformer       import aplicar_todas
 
 log = get_logger()
+
+
+def _es_carpeta_reciente(nombre: str, dias: int) -> bool:
+    try:
+        fecha = datetime.strptime(nombre, "%d-%m-%Y")
+        return fecha >= datetime.now() - timedelta(days=dias)
+    except ValueError:
+        return True
 
 
 def _leer_procesados(excel_bytes) -> Set[str]:
@@ -98,7 +110,11 @@ class Orchestrator:
                 if d.get("Archivo") not in eliminados
             ]
 
-        archivos_nuevos = [a for a in archivos if a["name"] not in ya_procesados]
+        archivos_nuevos = [
+            a for a in archivos
+            if a["name"] not in ya_procesados
+            and not any(p in a["name"] for p in PATRONES_EXCLUIDOS)
+        ]
 
         if not archivos_nuevos and not eliminados:
             log.info(f"   ✅  Sin cambios en '{carpeta}'")
@@ -115,7 +131,8 @@ class Orchestrator:
             log.info(f"   📄  {nombre}")
             try:
                 contenido = self.onedrive.descargar(archivo["id"])
-                datos = self.extractor.extraer(contenido, nombre)
+                datos = self.extractor.extraer(contenido, nombre, carpeta)
+                datos = aplicar_todas(datos)
                 for d in datos:
                     d["ID"] = contador_id
                     contador_id += 1
@@ -151,16 +168,61 @@ class Orchestrator:
             log.warning(f"   {errores} archivo(s) con error")
         return len(nuevas)
 
+    def generar_excel_maestro(self) -> None:
+        log.info("📊  Generando Excel maestro...")
+
+        try:
+            todas_subcarpetas = self.onedrive.listar_subcarpetas(CARPETA_RAIZ)
+        except Exception as e:
+            log.error(f"   Error listando subcarpetas: {e}")
+            return
+
+        todos = []
+        for carpeta in todas_subcarpetas:
+            excel = self.onedrive.descargar_excel(carpeta, EXCEL_OUTPUT_NAME)
+            if excel is None:
+                continue
+            datos = _leer_datos_existentes(excel)
+            todos.extend(datos)
+
+        if not todos:
+            log.warning("   Sin datos para el Excel maestro")
+            return
+
+        todos = _normalizar_filas(todos)
+
+        try:
+            excel_bytes = generar_excel(todos, CARPETA_RAIZ)
+        except Exception as e:
+            log.error(f"   Error generando Excel maestro: {e}")
+            return
+
+        try:
+            ok = self.onedrive.subir(CARPETA_RAIZ, EXCEL_OUTPUT_NAME, excel_bytes)
+            if ok:
+                log.info(f"   ✅  Excel maestro: {len(todos)} fila(s) — {CARPETA_RAIZ}/{EXCEL_OUTPUT_NAME}")
+            else:
+                log.error("   ✗  No se pudo subir el Excel maestro")
+        except Exception as e:
+            log.error(f"   Error subiendo Excel maestro: {e}")
+
     def procesar_todo(self, carpetas: List[str]) -> None:
         log.info("=" * 50)
         log.info("🚀  Iniciando extracción de facturas")
         log.info("=" * 50)
 
         try:
-            subcarpetas = self.onedrive.listar_subcarpetas(CARPETA_RAIZ)
-            if subcarpetas:
-                log.info(f"   {len(subcarpetas)} subcarpeta(s) encontrada(s) en '{CARPETA_RAIZ}'")
-                carpetas = carpetas + subcarpetas
+            todas_subcarpetas = self.onedrive.listar_subcarpetas(CARPETA_RAIZ)
+
+            # Solo procesa carpetas recientes
+            subcarpetas_recientes = [
+                s for s in todas_subcarpetas
+                if _es_carpeta_reciente(s.split("/")[-1], DIAS_ATRAS)
+            ]
+
+            log.info(f"   {len(todas_subcarpetas)} subcarpeta(s) total — {len(subcarpetas_recientes)} reciente(s) a procesar")
+            carpetas = carpetas + subcarpetas_recientes
+
         except Exception as e:
             log.warning(f"   No se pudieron listar subcarpetas: {e}")
 
@@ -168,6 +230,9 @@ class Orchestrator:
         for carpeta in carpetas:
             total_global += self.procesar_carpeta(carpeta)
 
-        log.info("=" * 5)
+        # Excel maestro lee TODAS las subcarpetas sin filtro de fecha
+        self.generar_excel_maestro()
+
+        log.info("=" * 50)
         log.info(f"✅  Proceso terminado — {total_global} factura(s) nuevas procesadas")
-        log.info("=" * 5)
+        log.info("=" * 50)

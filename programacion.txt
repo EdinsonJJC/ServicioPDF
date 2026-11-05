@@ -1,0 +1,6 @@
+# archivo        | días                 | horas
+prueba.sql       | TODOS          | 07:15, 09:15, 10:45, 13:15
+
+
+
+# Días: LUN MAR MIE JUE VIE SAB DOM o TODOS

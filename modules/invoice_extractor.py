@@ -33,7 +33,8 @@ class InvoiceExtractor:
 
             # Extraer moneda del primer item
             moneda = None
-            items = doc.fields.get("Items")
+            glosa  = None
+            items  = doc.fields.get("Items")
             if items and items.value:
                 primer_item = items.value[0].value
                 for campo_moneda in ["Amount", "UnitPrice", "Tax"]:
@@ -41,6 +42,15 @@ class InvoiceExtractor:
                     if field and field.value and hasattr(field.value, "code") and field.value.code:
                         moneda = field.value.code
                         break
+
+                # Descripción más larga entre todos los items
+                descripciones = []
+                for item in items.value:
+                    desc = item.value.get("Description")
+                    if desc and desc.value:
+                        descripciones.append(str(desc.value))
+                if descripciones:
+                    glosa = max(descripciones, key=len)
 
             facturas.append({
                 "ID"               : None,
@@ -54,7 +64,7 @@ class InvoiceExtractor:
                 "Fecha emisión"    : get("InvoiceDate"),
                 "Moneda"           : moneda,
                 "Importe total"    : get("InvoiceTotal"),
-                "Glosa"            : None,
-                "Check"         : None,
+                "Glosa"            : glosa,
+                "Check"            : None,
             })
         return facturas
